@@ -1,0 +1,28 @@
+{
+  "name": "bootcamp-github-actions-packages",
+  "version": "1.0.0",
+  "description": "ejecicio del bootcamp de GitHub actions clase #04",
+  "homepage": "https://github.com/IsaacCuautle/bootcamp-github-actions-packages#readme",
+  "bugs": {
+    "url": "https://github.com/IsaacCuautle/bootcamp-github-actions-packages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacCuautle/bootcamp-github-actions-packages.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "license": "MIT",
+  "author": "Luis Isaac Cuautle",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "chart.js": "^4.4.9",
+    "chartjs-node-canvas": "^5.0.0"
+  }
+}
